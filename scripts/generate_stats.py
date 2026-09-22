@@ -12,6 +12,7 @@ from pathlib import Path
 
 USERNAME = os.environ.get("GH_USERNAME", "LeandroColombo111")
 TOKEN = os.environ["GITHUB_TOKEN"]
+EXCLUDED_LANGUAGES = {"Jupyter Notebook"}
 OUT_DIR = Path(__file__).resolve().parent.parent / "stats"
 
 QUERY = """
@@ -97,6 +98,8 @@ def languages_card(user, top=6):
     for repo in user["repositories"]["nodes"]:
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
+            if name in EXCLUDED_LANGUAGES:
+                continue
             totals[name] = totals.get(name, 0) + edge["size"]
             colors[name] = edge["node"]["color"] or MUTED
     ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:top]
