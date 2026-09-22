@@ -56,11 +56,8 @@
 
 ## 📈 GitHub Stats
 <p>
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile details" />
-</p>
-<p>
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" width="49%" />
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per language" width="49%" />
+  <img src="./stats/stats.svg" alt="GitHub stats" width="49%" />
+  <img src="./stats/top-langs.svg" alt="Top languages" width="49%" />
 </p>
 
 <sub>Cards are generated daily by a GitHub Action in this repo, so there are no third-party rate limits.</sub>
