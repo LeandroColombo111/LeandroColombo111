@@ -77,8 +77,9 @@ def stats_card(user):
     stars = sum(r["stargazerCount"] for r in user["repositories"]["nodes"])
     rows = [
         ("Contributions (last year)", contrib["contributionCalendar"]["totalContributions"]),
-        ("Commits (last year)", contrib["totalCommitContributions"] + contrib["restrictedContributionsCount"]),
+        ("Commits (last year)", contrib["totalCommitContributions"]),
         ("Pull requests (last year)", contrib["totalPullRequestContributions"]),
+        ("Private contributions (last year)", contrib["restrictedContributionsCount"]),
         ("Public repositories", user["repositories"]["totalCount"]),
         ("Stars earned", stars),
     ]
