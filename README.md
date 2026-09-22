@@ -33,5 +33,5 @@ I'm currently studying **Systems Analysis at ORT** and hold a **Data Engineer / 
 
 ## Get in touch
 - LinkedIn: [in/leancolombo](https://www.linkedin.com/in/leancolombo/)
-- Email: [tu.email@dominio.com](mailto:tu.email@dominio.com)
-- Portfolio: [tu-portfolio.com](https://tu-portfolio.com/)
+- Email: [leandronahuelcolombo@gmail.com](mailto:leandronahuelcolombo@gmail.com)
+- GitHub: [LeandroColombo111](https://github.com/LeandroColombo111)
