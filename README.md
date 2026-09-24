@@ -60,7 +60,6 @@
   <img src="./stats/top-langs.svg" alt="Top languages" width="49%" />
 </p>
 
-<sub>Cards are generated daily by a GitHub Action in this repo, so there are no third-party rate limits.</sub>
 
 ---
 
